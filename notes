@@ -1,0 +1,9 @@
+conda create -p venv python==3.11
+conda activate venv
+python setup.py install
+
+## To deactivate: conda deactivate
+
+## Another way to setup. Add '-e .' option in requirements.txt file
+pip install -r requirements.txt
+pip install -r requirements.txt --user
