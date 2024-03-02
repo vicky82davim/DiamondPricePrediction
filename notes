@@ -7,3 +7,17 @@ python setup.py install
 ## Another way to setup. Add '-e .' option in requirements.txt file
 pip install -r requirements.txt
 pip install -r requirements.txt --user
+
+## Git
+git init
+git add .
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/XXXXX/DiamondPricePrediction.git
+git config --global user.name "XXXXXX"
+git config --global user.email XXXXX
+git config --global --unset-all http.proxy
+git config --global --unset-all https.proxy
+git config --global -l
+git push -u origin main
